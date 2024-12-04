@@ -1,10 +1,10 @@
 //import react into the bundle
-import React, { useDeferredValue, useEffect, useState } from "react";
+import React, {useEffect, useState } from "react";
 import ReactDOM from 'react-dom/client';
 
 import "../styles/index.css";
 import './icons.js'
-import Home from "./component/home.jsx";
+import SimpleCounter from "./component/SimpleCounter.jsx";
 
 
 
@@ -14,7 +14,7 @@ function App () {
     
     useEffect(() => {
         const interval = setInterval(() => {
-            setCounter(counter => +1) 
+            setCounter(counter  + 1) 
         }, 1000) 
  
 
@@ -39,5 +39,5 @@ function App () {
 }
 
 //render your react application
-ReactDOM.createRoot(document.getElementById('app')).render(<Home/>);
+ReactDOM.createRoot(document.getElementById('app')).render(<App/>);
 

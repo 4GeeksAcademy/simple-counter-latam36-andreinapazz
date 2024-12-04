@@ -1,6 +1,9 @@
 .counter-display {
     text-align: center;
     margin: 140px 10px;
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px;
     
 
 }
@@ -10,12 +13,21 @@
     font-size: 120px;
     background-color: rgb(17, 15, 15);
     color: white;
-    width: 80px;
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px;
+    border-radius: 15px;
+    background-color: rgba(40, 14, 65, 0.507);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+    
     
     
 }
 
 .bi-clock {
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
+    margin: auto;
+    
 }
